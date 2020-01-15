@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.1.7)  15 JAN 2020 09:15
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.1.7)  15 JAN 2020 13:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -155,11 +155,6 @@ Overfull \hbox (15.445pt too wide) in alignment at lines 41--46
  [][][] []
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--53
-\OT1/cmr/m/n/10 SYS-TEMS'' Re-views in Math-e-mat-i-cal
- []
-
 [1
 
 
@@ -171,6 +166,6 @@ Here is how much of TeX's memory you used:
  5298 multiletter control sequences out of 15000+600000
  16696 words of font info for 68 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
- 27i,9n,25p,587b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,9n,25p,581b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on abstract.dvi (1 page, 7288 bytes).
+Output written on abstract.dvi (1 page, 7256 bytes).
