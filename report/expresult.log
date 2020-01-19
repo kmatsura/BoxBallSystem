@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.1.7)  18 JAN 2020 19:59
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.1.7)  19 JAN 2020 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -196,15 +196,35 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 29.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 4.805pt on input line 29.
- [1]
-(./expresult.aux) ) 
+ [1] [2] [3]
+[4] [5] [6]
+Overfull \hbox (50.41302pt too wide) detected at line 186
+\OML/cmm/m/it/10 amplitude \OT1/cmr/m/n/10 = []
+ []
+
+[7]
+Overfull \hbox (12.78491pt too wide) detected at line 216
+\OML/cmm/m/it/10 amplitude \OT1/cmr/m/n/10 = []
+ []
+
+[8] [9]
+Overfull \hbox (25.8778pt too wide) detected at line 246
+\OML/cmm/m/it/10 amplitude \OT1/cmr/m/n/10 = []
+ []
+
+[10]
+Overfull \hbox (25.8778pt too wide) detected at line 276
+\OML/cmm/m/it/10 amplitude \OT1/cmr/m/n/10 = []
+ []
+
+[11] [12] [13] [14] [15] [16] [17] [18] [19] [20] (./expresult.aux) ) 
 Here is how much of TeX's memory you used:
  1574 strings out of 494311
  18576 string characters out of 6171461
- 87923 words of memory out of 5000000
+ 99923 words of memory out of 5000000
  5482 multiletter control sequences out of 15000+600000
  17099 words of font info for 77 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
- 27i,9n,25p,536b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,11n,25p,1841b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on expresult.dvi (2 pages, 2996 bytes).
+Output written on expresult.dvi (21 pages, 120184 bytes).
