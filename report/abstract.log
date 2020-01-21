@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.1.7)  15 JAN 2020 13:36
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.1.7)  21 JAN 2020 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -29,13 +29,39 @@ LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
 \bibindent=\dimen120
 \heisei=\count92
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count93
+\Gm@cntv=\count94
+\c@Gm@tempcnt=\count95
+\Gm@bindingoffset=\dimen121
+\Gm@wd@mp=\dimen122
+\Gm@odd@mp=\dimen123
+\Gm@even@mp=\dimen124
+\Gm@layoutwidth=\dimen125
+\Gm@layoutheight=\dimen126
+\Gm@layouthoffset=\dimen127
+\Gm@layoutvoffset=\dimen128
+\Gm@dimlist=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
@@ -50,8 +76,8 @@ Package graphics Info: Driver file: dvipdfmx.def on input line 99.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
 ))
-\Gin@req@height=\dimen121
-\Gin@req@width=\dimen122
+\Gin@req@height=\dimen129
+\Gin@req@width=\dimen130
 )
 (/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -64,51 +90,51 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks16
-\ex@=\dimen123
+\@emptytoks=\toks17
+\ex@=\dimen131
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen124
+\pmbraise@=\dimen132
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count93
+\inf@bad=\count96
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count94
-\leftroot@=\count95
+\uproot@=\count97
+\leftroot@=\count98
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count96
-\DOTSCASE@=\count97
+\classnum@=\count99
+\DOTSCASE@=\count100
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box43
 \strutbox@=\box44
-\big@size=\dimen125
+\big@size=\dimen133
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count98
-\c@MaxMatrixCols=\count99
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
 \dotsspace@=\muskip10
-\c@parentequation=\count100
-\dspbrk@lvl=\count101
-\tag@help=\toks17
-\row@=\count102
-\column@=\count103
-\maxfields@=\count104
-\andhelp@=\toks18
-\eqnshift@=\dimen126
-\alignsep@=\dimen127
-\tagshift@=\dimen128
-\tagwidth@=\dimen129
-\totwidth@=\dimen130
-\lineht@=\dimen131
-\@envbody=\toks19
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
+\tag@help=\toks18
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
+\andhelp@=\toks19
+\eqnshift@=\dimen134
+\alignsep@=\dimen135
+\tagshift@=\dimen136
+\tagwidth@=\dimen137
+\totwidth@=\dimen138
+\lineht@=\dimen139
+\@envbody=\toks20
 \multlinegap=\skip44
 \multlinetaggap=\skip45
-\mathdisplay@stack=\toks20
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
@@ -121,51 +147,87 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ) (./abstract.aux)
 \openout1 = `abstract.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Try loading font information for U+msa on input line 17.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(85.35826pt, 688.5567pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=900.0pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=7.77588pt
+* \footskip=30.0pt
+* \marginparwidth=106.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@mpl=\count108
+LaTeX Font Info:    Try loading font information for U+msa on input line 35.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 17.
+LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 19.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 19.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 42.
 
-Overfull \hbox (15.445pt too wide) in alignment at lines 41--46
- [][][] []
+Overfull \hbox (46.09909pt too wide) detected at line 63
+\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 ) [] = [] 
+[] \OMS/cmsy/m/n/10 ^^@ [] [] [] [] \OT1/cmr/m/n/10 + [] []
  []
 
 [1
 
-
 ] (./abstract.aux) ) 
 Here is how much of TeX's memory you used:
- 1386 strings out of 494311
- 16477 string characters out of 6171461
- 88264 words of memory out of 5000000
- 5298 multiletter control sequences out of 15000+600000
+ 1896 strings out of 494311
+ 23984 string characters out of 6171461
+ 100601 words of memory out of 5000000
+ 5793 multiletter control sequences out of 15000+600000
  16696 words of font info for 68 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
- 27i,9n,25p,581b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,4n,25p,581b,241s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on abstract.dvi (1 page, 7256 bytes).
+Output written on abstract.dvi (1 page, 6916 bytes).

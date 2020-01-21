@@ -1,44 +1,19 @@
-\documentclass[10pt]{jarticle}
-
-\usepackage[top=30truemm,bottom=25truemm,left=25truemm,right=25truemm]{geometry}
-%\setlength{\topmargin}{-30mm}
-
-\makeatletter
-\def\mojiparline#1{
-\newcounter{mpl}
-\setcounter{mpl}{#1}
-\@tempdima=\linewidth
-\advance\@tempdima by-\value{mpl}zw
-\addtocounter{mpl}{-1}
-\divide\@tempdima by \value{mpl}
-\advance\kanjiskip by\@tempdima
-\advance\parindent by\@tempdima
-}
-\makeatother
-\def\linesparpage#1{
-\baselineskip=\textheight
-\divide\baselineskip by #1
-}
+%!TEX encoding = UTF-8
+% ビルドレシピは「pLaTeX」を選択する
+\documentclass{jsreport}
 \usepackage[dvipdfmx]{graphicx}
 \usepackage{braket}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 
 
-\title{\vspace{-2cm}周期的境界条件における量子箱玉系}
-\author{}
-\date{}
-
-\setlength{\textheight}{60\baselineskip}
 \begin{document}
-\mojiparline{50} %X:一行あたり文字数の指定
+
+\title{レポート}
+\author{松浦 健悟（物質基礎科学コース４年、学生証番号:08-183025）}
+\date{\today}
 \maketitle
 \thispagestyle{empty}
-\vspace{-2cm}
-\begin{flushright}
- {\large 松浦 健悟（指導教員：國場敦夫）} % author
-\end{flushright}
-
 \section{箱玉系及び周期箱玉系}
 箱玉系とは、玉を一つまで入れることのできる箱の列を考え、その箱に対して時間発展の規則が与えられている離散力学系の一種である。箱玉系ではその単純な時間発展のルールに対して、さまざまな保存量や興味深い物理的なエッセンスが内包されており、これまで盛んに研究がなされた。\\
 例えば箱の個数が$L$で、玉の種類が一つの場合、$B_1 = \{ 0, 1\}$として、$B_1 ^ {\otimes L}$の元をパスと呼び、$b_1 \otimes b_2 \otimes ... \otimes b_L $を0と1からなる数列$p = b_1 b_2 ... b_L $として定義する。このとき箱玉系の状態は、$b_i = 0$のとき$i$番目の箱は空、$b_i = 1$のとき$i$番目の箱に玉が入っている状態として解釈する。\\そして周期箱玉系はその箱玉系に周期的境界条件を課したものである。
@@ -48,19 +23,25 @@
 3. 残りのコピーのうち任意の一個をその右にある一番近い空箱に移す。\\  
 4. 操作3をすべてのコピーした玉を動かし終えるまでくりかえす。\\  
 5. もとの玉を消し、コピーを新たな玉とした状態を次の時刻の状態とする。\\  
-実はこの時間発展は、運搬車ととよばれる新しい変数を導入することで、組み合わせ論的R行列の作用として記述できることが知られており、量子可積分系との関係も議論されている。\\
-
-\vspace{-1cm}
+以下は周期箱玉系の時間発展の例である。\\  
+-----------------------------------\\  
+$t = 0$ $|$ [0 0 0 1 0 1 0 0 0 1 1 0 1]\\  
+$t = 1$ $|$ [1 1 1 0 1 0 1 0 0 0 0 1 0]\\
+$t = 2$ $|$ [0 0 0 1 0 1 0 1 1 1 0 0 1]\\
+$t = 3$ $|$ [1 1 0 0 1 0 1 0 0 0 1 1 0]\\
+-----------------------------------\\
+実はこの時間発展は、運搬車ととよばれる新しい変数を導入することで、組み合わせ論的R行列の作用として記述できることが知られており、量子可積分系との関係も議論されている。
 \section{量子箱玉系}
 量子箱玉系の時間発展では、通常の箱玉系の時間発展の演算子の作用Rの代わりに、箱の玉を増減させる演算子$P,Q,R$を重ね合わせて作用させる。この作用をまとめた演算子はL演算子と呼ばれる。そして時間発展はこのL演算子をパスの左から右に逐次的に作用させたものとして定義される。したがって、この系の空間の状態は、通常の箱玉系のパスの重ね合わせとして表現される。量子箱玉系では時間発展に対して、全てのパスの係数の自乗和が保存しており、このパスの係数は確率変数に似た振る舞いをしている。（ただしこの系の時間発展演算子は通常の量子力学的な時間発展演算子のようなエルミート演算子ではない。）
 
-\vspace{-0.5cm}
 \section{量子箱玉系の周期系への拡張}
 今回の卒業研究では、この量子箱玉系の周期系への拡張を試み、その時間発展演算子の性質を調べた。量子周期箱玉系の時間発展は、通常の周期箱玉系の時間発展を量子箱玉系的な時間発展に置き換えて構成した。この定義を用いると、例えば$\ket{1000}$という系の時間発展は次のように表せる。
-$$T(z)\ket{1000} =
-\frac{-q}{1 - q^{4} z^{4}}\ket{1000} - \frac{z (1 - q^{2})}{(1-q^{2} z^{4})(1 - q^{4} z^{4})}\ket{0100}
-\frac{qz^2 (1 - q^{2})}{(1-q^{2} z^{4})(1 - q^{4} z^{4})}\ket{0010} + \frac{q^2z^3 (1 - q^{2})}{(1-q^{2} z^{4})(1 - q^{4} z^{4})}\ket{0001}
-$$
+\begin{eqnarray*}
+\lefteqn{ T(z)\ket{1000} }  \\
+& = &\frac{-q}{1 - q^{4} z^{4}}\ket{1000} - \frac{z (1 - q^{2})}{(1-q^{2} z^{4})(1 - q^{4} z^{4})}\ket{0100} \\
+& + & \frac{qz^2 (1 - q^{2})}{(1-q^{2} z^{4})(1 - q^{4} z^{4})}\ket{0010} \\
+& + & \frac{q^2z^3 (1 - q^{2})}{(1-q^{2} z^{4})(1 - q^{4} z^{4})}\ket{0001} \\
+\end{eqnarray*}
 この時間発展演算子は、周期的でない量子箱玉系の演算子と比べると、単純な自乗和が保存しなくなるなど性質が異なる点がある。
 
 \begin{thebibliography}{1}
@@ -68,4 +49,6 @@ $$
     ``A Quantization of Box-Ball Systems'' Reviews in Mathematical Physics,
     vol 16, no.10, pp.1227-1258, 2004.
 \end{thebibliography}
+
+
 \end{document}

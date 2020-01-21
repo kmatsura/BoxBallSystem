@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.1.7)  19 JAN 2020 15:47
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2020.1.7)  21 JAN 2020 09:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,11 +990,100 @@ file (type bmp)
 </home/kmatsuura/Desktop/4a/sotugyoukennkyuu/data/bbs_arkrule.png>
  [2
 
-] [3
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 66.
 
-] [4
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 66.
 
-] [5
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 66.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 66.
+
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 66.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 66.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \end{frame}
+                
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \end{frame}
+                
+? 
+File: /home/kmatsuura/Desktop/4a/sotugyoukennkyuu/data/bbs_carrier_local.png Gr
+aphic file (type bmp)
+</home/kmatsuura/Desktop/4a/sotugyoukennkyuu/data/bbs_carrier_local.png>
+[3
+
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 \end{frame}
+                
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 \end{frame}
+                
+? 
+File: /home/kmatsuura/Desktop/4a/sotugyoukennkyuu/data/bbs_carrier.png Graphic 
+file (type bmp)
+</home/kmatsuura/Desktop/4a/sotugyoukennkyuu/data/bbs_carrier.png>
+[4
+
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85 \end{frame}
+                
+? 
+File: /home/kmatsuura/Desktop/4a/sotugyoukennkyuu/data/bbs_carrier_preodic.png 
+Graphic file (type bmp)
+</home/kmatsuura/Desktop/4a/sotugyoukennkyuu/data/bbs_carrier_preodic.png>
+[5
 
 ] [6
 
@@ -1006,48 +1095,21 @@ file (type bmp)
 
 ] [10
 
-]
-[11
+] [11
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 117.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 133.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 117.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 133.
  [12
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 141.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 141.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+lasy on input line 141.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 141.
-
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 141.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 157.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 141.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 141.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 141.
-
-[13
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 157.
+ [13
 
 ]
 \tf@nav=\write8
@@ -1059,21 +1121,21 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
 \tf@snm=\write10
 \openout10 = `bbs_slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
  (./bbs_slide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 143.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 159.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
 Package rerunfilecheck Info: File `bbs_slide.out' has not changed.
 (rerunfilecheck)             Checksum: 1CB53D9C3411B09D07BC22C215C97F9A;44.
  ) 
 Here is how much of TeX's memory you used:
- 21383 strings out of 494311
- 421838 string characters out of 6171461
+ 21392 strings out of 494311
+ 422348 string characters out of 6171461
  515867 words of memory out of 5000000
- 24775 multiletter control sequences out of 15000+600000
+ 24781 multiletter control sequences out of 15000+600000
  28367 words of font info for 112 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
  56i,15n,75p,873b,678s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bbs_slide.dvi (13 pages, 43612 bytes).
+Output written on bbs_slide.dvi (13 pages, 45308 bytes).
